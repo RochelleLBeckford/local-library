@@ -160,4 +160,4 @@
 <hr>
 
 -   [ ] Link to visit the webpage:
-    -   [ ] <a href="https://rlb-local-library.netlify.app" target="_blank">rlb-local-library</a>
+    -   [ ] <a href="https://rlb-local-library.netlify.app/" target="_blank">rlb-local-library</a>
