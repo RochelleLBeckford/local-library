@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- & Title of the webpage -->
+    <title>Welcome to the Library</title>
+    <!-- & Link to the CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- & Header
+    ~ The space near the top of the webpage that will make it easier to understand and navigate
+    -->
+    <header>
+        <heading class="flex-container">
+            <img
+                src="img/a-maiden-kissed-by-the-wind.png"
+                alt="Maiden kissed by the wind"
+                class="header-img"
+            >
+            <hr class="vertical-divider">
+            <h1>🌸 Welcome to the Library 🌸</h1>
+            <hr class="vertical-divider">
+            <img
+                src="img/a-maiden-kissed-by-the-wind.png"
+                alt="Maiden kissed by the wind"
+                class="header-img"
+            >
+        </heading>
+
+        <!-- & Nav Bar
+        ~ Links that will navigate to the other parts of the webpage.
+        -->
+        <nav>
+            <ul class="nav-bar">
+                <li>
+                    <a href="#welcome" class="nav-item">Home</a>
+                </li>
+                <li>
+                    <a href="#catalog-form" class="nav-item">Search</a>
+                </li>
+                <li>
+                    <a href="#staff-picks" class="nav-item">Staff Picks</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <hr class="section-divider">
+    <br>
+
+    <!-- & Main
+    ~ This is where the main information of the webpage will go
+    -->
+    <main>
+        <!-- & Section
+        ~ This groups together similar pieces of the webpage
+        ~ i.e. sections for the home or about the local library, the search section, and the staff section
+        -->
+        <!-- & This section will be about the welcome -->
+        <section id="welcome">
+            <h2>The mission of the Library</h2>
+            <br>
+            <p>
+                Guided by our dedication to literacy and learning and patron-focused services and programs, the Library is a fun space for using information and technology to
+                build knowledge and foster community, social connection.
+            </p>
+        </section>
+        <br>
+        <hr class="section-divider">
+        <br>
+
+        <!-- & This section will be about catalog where you you can search for a specific book -->
+        <section id="catalog">
+            <form id="catalog-form">
+                <label for="">
+                    Search through the Catalog:
+                </label>
+                <input
+                    type="text"
+                    id="catalog-input"
+                    placeholder="Please enter the Catalog here..."
+                >
+                <input type="submit" value="Search" id="form-btn">
+            </form>
+        </section>
+        <br>
+        <hr class="section-divider">
+        <br>
+
+        <!-- & This section will be about the Staff Picks -->
+        <section id="staff-picks">
+            <h2>Staff Picks</h2>
+            <br>
+            <br>
+
+            <div class="staff-pick-row">
+                <a>
+                    <img
+                        class="staff-pick-img"
+                        src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442129426i/231804.jpg"
+                        alt="The Outsiders by S.E. Hinton"
+                    />
+                </a>
+                <a>
+                    <img
+                        class="staff-pick-img"
+                        src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1457284880i/27220736.jpg"
+                        alt="Shoe Dog by Phil Knight"
+                    />
+                </a>
+                <a>
+                    <img
+                        class="staff-pick-img"
+                        src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1444887454i/26451798.jpg"
+                        alt="Make: Getting Started with p5.js by Lauren McCarthy, Casey Reas, & Ben Fry"
+                    />
+                </a>
+            </div>
+
+            <div class="staff-pick-row">
+                <a>
+                    <img
+                        class="staff-pick-img"
+                        src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1586529806i/43599070.jpg"
+                        alt="The Courage to be Happy by Ichiro Kishimi & Fumitake Koga"
+                    />
+                </a>
+                <a>
+                    <img
+                        class="staff-pick-img"
+                        src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1546071216i/5907.jpg"
+                        alt="The Hobbit by J.R.R. Tolkien"
+                    />
+                  <img
+                        class="staff-pick-img"
+                        src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1386924362i/216088.jpg"
+                        alt="Ripley's Believe It or Not!"
+                    />
+                </a>
+            </div>
+        </section>
+    </main>
+    <br>
+    <hr class="section-divider">
+    <br>
+
+    <!-- & Footer
+    ~ This is where the important information will go that is not suitable for the <header> element
+        ~ Footnotes
+        ~ Links to extended resources
+            ~ In the <a> element -> use the following for the "href" attribute
+                ~ href = "/privacy"
+            ~ Also use the "target" attribute to open the link in a new web browser tab
+                ~ target = "_blank"
+            ~ Copyright information
+                ~ &copy; -> this is the symbol for copyright
+    -->
+    <footer class="flex-container">
+        <img
+            src="img/b-maiden-walks-through-the-bamboo-forest.png"
+            alt="Maiden walks through the Bamboo Forest"
+            class="footer-img"
+        >
+        <p>
+            &copy; 2025 EtariaL33. All rights reserved.
+        </p>
+        <img
+            src="img/b-maiden-walks-through-the-bamboo-forest.png"
+            alt="Maiden walks through the Bamboo Forest"
+            class="footer-img"
+        >
+    </footer>
+</body>
+</html>

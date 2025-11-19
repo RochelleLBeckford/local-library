@@ -1,0 +1,174 @@
+/* & This will import the desired font */
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+/* & This will style the font for the entire webpage */
+* {
+    /* ~ This will reset the Border Box -> removing the default browser spacing */
+    padding: 0;
+    margin: 0;
+    /* ~ This changes how the element dimensions are calculated -> makes the "width" and "height" include padding and border, instead of adding them on top */
+    box-sizing: border-box;
+}
+
+/* & This will style the default appearaance of the etire wepage */
+body {
+    background-color: #393a62;
+    color: #f4f5f1;
+    font-family: "Poiret One";
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    line-height: 2;
+    width: 95%;
+    margin: auto;
+    padding: 1rem;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* & This will style the elements in the header section of the webpage */
+
+header {
+    background-image: linear-gradient(rgba(57, 58, 98, 0.55), rgba(57, 58, 98, 0.55)), url("https://cdn.pixabay.com/photo/2020/07/23/01/29/books-5430104_1280.jpg");
+    /* ~ This will make the image fit the entire header area */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+/* ~ This will create a flex container to flex the elements */
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* ~ This will style the header image */
+.header-img {
+    width: 180px;
+    height: 180px;
+    border: 5px solid #d5ffc0;
+    padding: 8px;
+}
+
+/* ~ This will style the <hr> element -> the horizontal line or dividing line will change to a vertical divider instead of it being horizontal */
+.vertical-divider {
+    width: 8px;
+    height: 200px;
+    background: linear-gradient(#d5ffc0 25%, #d17 75%)no-repeat;
+}
+
+h1 {
+    color: salmo;
+    text-align: center;
+    border: 5px solid #d5ffc0;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* ~ This will style the Nav Bar section of the webpage */
+.nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+}
+
+a {
+    color: #f4f5f1;
+    text-decoration: none;
+}
+
+/* ~ The nav list items */
+.nav-item {
+    border-bottom: 5px solid #d5ffc0;
+    padding: 8px;
+    width: 33%;
+    /* display: inline-block; */
+    margin: 10px;
+}
+
+/* ~ This will style the horizontal line or dividing line that will follow each section */
+.section-divider {
+    width: 95%;
+    height: 10px;
+    background: linear-gradient(90deg, #d5ffc0 25%, #d17 75%)no-repeat;
+    margin: auto;
+}
+
+/* & This will style the elements in the main section of the webpage */
+main {
+    margin-top: 20px;
+}
+
+section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#welcome > p {
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+h2 {
+    text-align: center;
+    width: 40%;
+    border-bottom: 5px solid #d5ffc0;
+    margin: auto;
+}
+
+/* ~ This will style the horizontal line or dividing line that will follow each title for each section */
+/* .title-divider {
+    width: 35%;
+    height: 10px;
+    background: linear-gradient(90deg, #d5ffc0 25%, #d17 75%)no-repeat;
+    margin: auto;
+} */
+
+/* ~ This will style the elements in the main section of the webpage */
+p {
+    margin: 10px 30px 5px;
+}
+
+#catalog-input {
+    text-align: center;
+    font-size: 1.25rem;
+    /* font-weight: 800; */
+    padding: 8px;
+    border: 2px solid #d5ffc0;
+    width: 37.5%;
+}
+
+#form-btn {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding: 8px;
+}
+
+#staff-picks {
+    text-align: center;
+}
+
+.staff-pick-img {
+    border: 5px solid #d5ffc0;
+    border-radius: 0 7px 7px 0;
+    width: 10em;
+    height: 15em;
+    margin: 10px;
+}
+
+/* & This will style the elements in the footer section */
+.footer-img {
+    width: 135px;
+    height: 145px;
+    border: 5px solid #d5ffc0;
+    padding: 8px;
+}
+
+footer {
+    padding-bottom: 10px;
+}
