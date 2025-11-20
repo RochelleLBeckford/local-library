@@ -116,17 +116,17 @@ section {
 h2 {
     text-align: center;
     width: 40%;
-    border-bottom: 5px solid #d5ffc0;
+    /* border-bottom: 5px solid #d5ffc0; */
     margin: auto;
 }
 
-/* ~ This will style the horizontal line or dividing line that will follow each title for each section */
-/* .title-divider {
-    width: 35%;
-    height: 10px;
+/* ~ This will style the horizontal line or dividing line that will follow each title of each section */
+.title-divider {
+    width: 40%;
+    height: 8px;
     background: linear-gradient(90deg, #d5ffc0 25%, #d17 75%)no-repeat;
     margin: auto;
-} */
+}
 
 /* ~ This will style the elements in the main section of the webpage */
 p {
