@@ -116,6 +116,7 @@ section {
 h2 {
     text-align: center;
     width: 40%;
+    font-weight: 400;
     /* border-bottom: 5px solid #d5ffc0; */
     margin: auto;
 }
